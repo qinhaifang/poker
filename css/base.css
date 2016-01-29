@@ -1,0 +1,43 @@
+body{
+	font-family: '微软雅黑';
+	margin:0;
+	background-image: url('../images/x.jpg');
+}
+#da{
+	width: 1200px;
+	height: 800px;
+	/*border: 1px solid black;*/
+	position: relative;
+	top:0px;
+	left:50px;
+	margin: 10px auto;
+}
+.poker,.pokera,.pokerb,.pokerc{
+	width: 150px;
+	height: 200px;
+	border: 1px solid black;
+	background: blue;
+	position: absolute;
+}
+.pokera{
+	bottom:70px;
+	left:200px;
+}
+.pokerb{
+	bottom: 70px;
+	right:200px;
+	display: none;
+}
+.btn{
+	width: 150px;
+	height: 50px;
+	background: blue;
+	position: absolute;
+	left:520px;
+	top:300px;
+
+	color: white;
+	text-align: center;
+	line-height: 50px;
+	font-size: 18px;
+}
